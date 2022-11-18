@@ -11,7 +11,7 @@ interface ICoords {
 class GameScene extends Phaser.Scene {
   private HOST = window.location.hostname; // localhost and 127.0.0.1 handled
   private PORT = 8080; // change this if needed
-
+//
   private wsClient?: WebSocket;
   private sprite?: Phaser.GameObjects.Sprite;
 
